@@ -1,0 +1,8 @@
+[build]
+  publish = "path/to/your/build/directory"
+  command = "your-build-command"
+
+[[headers]]
+  for = "/data/*.json"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"

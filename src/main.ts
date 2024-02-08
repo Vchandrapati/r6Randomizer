@@ -101,9 +101,20 @@ let currentMode = 'attacker'
 
 // Function to fetch a random JSON file
 async function fetchRandomJsonData() {
-    const jsonFiles = currentMode === 'attacker' ? attackerJsons : defenderJsons;
-    const randomFileName = jsonFiles[Math.floor(Math.random() * jsonFiles.length)];
-    return await fetch(`/${currentMode}s/${randomFileName}`).then(response => response.json());
+    try {
+        const jsonFiles = currentMode === 'attacker' ? attackerJsons : defenderJsons;
+        const randomFileName = jsonFiles[Math.floor(Math.random() * jsonFiles.length)];
+        const response = await fetch(`/${currentMode}s/${randomFileName}`);
+
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+
+        return await response.json();
+    } catch (error) {
+        console.error('Error fetching JSON data:', error);
+        throw error; // Rethrow the error to propagate it to the caller
+    }
 }
 
 
@@ -123,7 +134,7 @@ function setupApp() {
         currentMode = currentMode === 'attacker' ? 'defender' : 'attacker';
         toggleButton.textContent = `Switch to ${currentMode === 'attacker' ? 'Defender' : 'Attacker'}`;
         updateDataDisplay(); // Update display when mode is toggled
-    });
+        });
 
     randomizeButton.addEventListener('click', () => {
         updateDataDisplay(); // Update display when randomize is clicked
