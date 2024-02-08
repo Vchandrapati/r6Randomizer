@@ -1,0 +1,116 @@
+{
+  "name": "jackal",
+  "nameShown": "JACKAL",
+  "primary": [
+    {
+      "name": "C7E",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 2.0x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "PDW9",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 1.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "ITA12L",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "USP40",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "ITA12S",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Smoke Grenade",
+      "amount": 2
+    },
+    {
+      "name": "Claymore",
+      "amount": 1
+    }
+  ],
+  "unique_gadget": "Eyenox",
+  "unique_gadget_amount": 3
+}

@@ -1,0 +1,94 @@
+{
+    "name": "dokkaebi",
+    "nameShown": "DOKKAEBI",
+    "primary": [
+        {
+            "name": "BOSG.12.2",
+            "sight": [
+                "No Sight",
+                "Red Dot Sight",
+                "Holographic Sight",
+                "Reflex Sight",
+                "Scope 2.5x"
+            ],
+            "barrel": [],
+            "grip": [
+                "No Grip",
+                "Vertical Grip",
+                "Angled Grip"
+            ],
+            "under_barrel": [
+                "No Underbarrel",
+                "Laser"
+            ]
+        },
+        {
+            "name": "Mk 14 EBR",
+            "sight": [
+                "No Sight",
+                "Red Dot Sight",
+                "Holographic Sight",
+                "Reflex Sight",
+                "Scope 3.0x"
+            ],
+            "barrel": [
+                "No Barrel",
+                "Suppressor",
+                "Muzzle Brake",
+                "Flash Hider"
+            ],
+            "grip": [
+                "No Grip",
+                "Vertical Grip",
+                "Angled Grip"
+            ],
+            "under_barrel": [
+                "No Underbarrel",
+                "Laser"
+            ]
+        }
+    ],
+    "secondary": [
+        {
+            "name": "C75 Auto",
+            "sight": [],
+            "barrel": [
+                "No Barrel",
+                "Suppressor"
+            ],
+            "grip": [],
+            "under_barrel": []
+        },
+        {
+            "name": "SMG-12",
+            "sight": [
+                "No Sight",
+                "Red Dot Sight",
+                "Holographic Sight",
+                "Reflex Sight"
+            ],
+            "barrel": [],
+            "grip": [
+                "No Grip",
+                "Vertical Grip",
+                "Angled Grip"
+            ],
+            "under_barrel": [
+                "No Underbarrel",
+                "Laser"
+            ]
+        }
+    ],
+    "gadget": [
+        {
+            "name": "Frag Grenade",
+            "amount": 2
+        },
+        {
+            "name": "Smoke Grenade",
+            "amount": 2
+        }
+    ],
+    "unique_gadget": "Logic Bomb",
+    "unique_gadget_amount": 2
+}

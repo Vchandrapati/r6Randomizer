@@ -1,0 +1,48 @@
+{
+  "name": "thorn",
+  "nameShown": "THORN",
+  "primary": [
+    {
+      "name": "UZK50Gi",
+      "sight": ["No Sight", "Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+      "barrel": ["No Barrel", "Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grip": ["No Grip", "Vertical Grip"],
+      "under_barrel": ["No Underbarrel", "Laser"]
+    },
+    {
+      "name": "M870",
+      "sight": [],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": ["Laser"]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "1911 TACOPS",
+      "sight": [],
+      "barrel": ["Suppressor", "Muzzle Brake"],
+      "grip": [],
+      "under_barrel": ["Laser"]
+    },
+    {
+      "name": "C75 Auto",
+      "sight": [],
+      "barrel": ["Suppressor"],
+      "grip": [],
+      "under_barrel": []
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Deployable Shield",
+      "amount": 1
+    },
+    {
+      "name": "Barbed Wire",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "Razorbloom Shell",
+  "unique_gadget_amount": 3
+}

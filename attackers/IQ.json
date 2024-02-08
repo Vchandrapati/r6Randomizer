@@ -1,0 +1,102 @@
+{
+    "name": "iq",
+    "nameShown": "IQ",
+    "primary": [
+        {
+            "name": "AUG A2",
+            "sight": [
+                "No Sight",
+                "Red Dot Sight",
+                "Holographic Sight",
+                "Reflex Sight",
+                "Scope 2.5x"
+            ],
+            "barrel": [
+                "No Barrel",
+                "Suppressor",
+                "Flash Hider",
+                "Compensator"
+            ],
+            "grip": [],
+            "under_barrel": [
+                "No Underbarrel",
+                "Laser"
+            ]
+        },
+        {
+            "name": "552 Commando",
+            "sight": [
+                "No Sight",
+                "Red Dot Sight",
+                "Holographic Sight",
+                "Reflex Sight",
+                "Scope 1.5x"
+            ],
+            "barrel": [
+                "No Barrel",
+                "Suppressor",
+                "Flash Hider",
+                "Compensator",
+                "Muzzle Brake"
+            ],
+            "grip": [
+                "No Grip",
+                "Vertical Grip",
+                "Angled Grip"
+            ],
+            "under_barrel": [
+                "No Underbarrel",
+                "Laser"
+            ]
+        },
+        {
+            "name": "G8A1",
+            "sight": [
+                "No Sight",
+                "Red Dot Sight",
+                "Holographic Sight",
+                "Reflex Sight"
+            ],
+            "barrel": [
+                "No Barrel",
+                "Suppressor",
+                "Flash Hider",
+                "Compensator"
+            ],
+            "grip": [
+                "No Grip",
+                "Vertical Grip",
+                "Angled Grip"
+            ],
+            "under_barrel": []
+        }
+    ],
+    "secondary": [
+        {
+            "name": "P12",
+            "sight": [],
+            "barrel": [
+                "No Barrel",
+                "Suppressor",
+                "Muzzle Brake"
+            ],
+            "grip": [],
+            "under_barrel": [
+                "No Underbarrel",
+                "Laser"
+            ]
+        }
+    ],
+    "gadget": [
+        {
+            "name": "Breach Charge",
+            "amount": 3
+        },
+        {
+            "name": "Claymore",
+            "amount": 1
+        }
+    ],
+    "unique_gadget": "Electronics Detector",
+    "unique_gadget_amount": "&infin;"
+}

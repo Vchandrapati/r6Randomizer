@@ -1,0 +1,89 @@
+{
+  "name": "castle",
+  "nameShown": "CASTLE",
+  "primary": [
+    {
+      "name": "UMP45",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 1.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "M1014",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "5.7 USG",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "Super Shorty",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight"
+      ],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Bulletproof Camera",
+      "amount": 1
+    },
+    {
+      "name": "Proximity Alarm",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "Armor Panel",
+  "unique_gadget_amount": 3
+}

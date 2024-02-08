@@ -1,0 +1,98 @@
+{
+  "name": "gridlock",
+  "nameShown": "GRIDLOCK",
+  "primary": [
+    {
+      "name": "F90",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 2.0x",
+        "Scope 2.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake",
+        "Flash Hider",
+        "Compensator"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "M249 SAW",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 1.5x",
+        "Scope 2.0x",
+        "Scope 2.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Flash Hider",
+        "Compensator"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "Super Shorty",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight"
+      ],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "SDP 9mm",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Breach Charge",
+      "amount": 3
+    },
+    {
+      "name": "Smoke Grenade",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "Trax Stingers",
+  "unique_gadget_amount": 3
+}

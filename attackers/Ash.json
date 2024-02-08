@@ -1,0 +1,99 @@
+{
+  "name": "ash",
+  "nameShown": "ASH",
+  "primary": [
+    {
+      "name": "G36C",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 1.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "R4-C",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "5.7 USG",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "M45 MEUSOC",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Breach Charge",
+      "amount": 3
+    },
+    {
+      "name": "Claymore",
+      "amount": 1
+    }
+  ],
+  "unique_gadget": "Breaching Rounds",
+  "unique_gadget_amount": 3
+}

@@ -1,0 +1,85 @@
+{
+  "name": "maverick",
+  "nameShown": "MAVERICK",
+  "primary": [
+    {
+      "name": "AR-15.50",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 3.0x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "M4",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 1.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "1911 TACOPS",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Claymore",
+      "amount": 1
+    },
+    {
+      "name": "Frag Grenade",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "Breaching Torch",
+  "unique_gadget_amount": 10
+}

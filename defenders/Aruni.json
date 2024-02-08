@@ -1,0 +1,83 @@
+{
+  "name": "aruni",
+  "nameShown": "ARUNI",
+  "primary": [
+    {
+      "name": "P10 RONI",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Muzzle Brake",
+        "Compensator",
+        "Extended Barrel"
+      ],
+      "grip": [
+        "No Grip",
+        "Angled Grip",
+        "Vertical Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "Mk 14 EBR",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 1.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor"
+      ],
+      "grip": [
+        "No Grip",
+        "Angled Grip",
+        "Vertical Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "PRB92",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Barbed Wire",
+      "amount": 2
+    },
+    {
+      "name": "Proximity Alarm",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "Surya Laser Gate",
+  "unique_gadget_amount": 3
+}

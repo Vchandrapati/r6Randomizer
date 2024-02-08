@@ -1,0 +1,82 @@
+{
+  "name": "goyo",
+  "nameShown": "GOYO",
+  "primary": [
+    {
+      "name": "Vector .45 ACP",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "TCSG12",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 2.0x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "P229",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Nitro Cell",
+      "amount": 1
+    },
+    {
+      "name": "Proximity Alarm",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "Volcán Shield",
+  "unique_gadget_amount": 2
+}

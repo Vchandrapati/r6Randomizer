@@ -1,0 +1,82 @@
+{
+  "name": "zero",
+  "nameShown": "ZERO",
+  "primary": [
+    {
+      "name": "SC3000K",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Reflex Sight",
+        "Holographic Sight",
+        "Scope 1.5x",
+        "Scope 2.0x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Compensator",
+        "Flash Hider",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "MP7",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Reflex Sight",
+        "Holographic Sight",
+        "Scope 1.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "5.7 USG",
+      "sight": [],
+      "barrel": [
+        "Suppressor"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Claymore",
+      "amount": 1
+    },
+    {
+      "name": "Frag Grenade",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "Argus Launcher",
+  "unique_gadget_amount": 4
+}

@@ -1,0 +1,55 @@
+{
+  "name": "clash",
+  "nameShown": "CLASH",
+  "primary": [
+    {
+      "name": "CCE Shield",
+      "sight": [],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": []
+    }
+  ],
+  "secondary": [
+    {
+      "name": "P-10C",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Muzzle Brake",
+        "Suppressor"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "SPSMG9",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Impact Grenade",
+      "amount": 2
+    },
+    {
+      "name": "Barbed Wire",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "CCE Shield",
+  "unique_gadget_amount": "&infin;"
+}

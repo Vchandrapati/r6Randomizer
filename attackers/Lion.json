@@ -1,0 +1,113 @@
+{
+  "name": "lion",
+  "nameShown": "LION",
+  "primary": [
+    {
+      "name": "SG-CQB",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [],
+      "grip": [
+        "No Grip",
+        "Vertical Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "V308",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 2.0x",
+        "Scope 2.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "417",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 3.0x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake",
+        "Flash Hider"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "P9",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "LFP586",
+      "sight": [],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Hard Breach Charge",
+      "amount": 1
+    },
+    {
+      "name": "Stun Grenade",
+      "amount": 3
+    }
+  ],
+  "unique_gadget": "EE-ONE-D",
+  "unique_gadget_amount": 3
+}

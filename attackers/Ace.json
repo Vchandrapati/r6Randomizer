@@ -1,0 +1,75 @@
+{
+  "name": "ace",
+  "nameShown": "ACE",
+  "primary": [
+    {
+      "name": "AK-12",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Reflex Sight",
+        "Holographic Sight",
+        "Scope 2.0x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Compensator",
+        "Flash Hider",
+        "Muzzle Brake"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "M1014",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Reflex Sight",
+        "Holographic Sight"
+      ],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "P9",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Breach Charge",
+      "amount": 3
+    },
+    {
+      "name": "Smoke Grenade",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "S.E.L.M.A. Aqua Breacher",
+  "unique_gadget_amount": 3
+}

@@ -1,0 +1,66 @@
+{
+  "name": "caveira",
+  "nameShown": "CAVEIRA",
+  "primary": [
+    {
+      "name": "M12",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Reflex Sight",
+        "Holographic Sight"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "SPAS-15",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "Luison",
+      "sight": [],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Impact Grenade",
+      "amount": 2
+    },
+    {
+      "name": "Proximity Alarm",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "Silent Step/Interrogation",
+  "unique_gadget_amount": "&infin;"
+}

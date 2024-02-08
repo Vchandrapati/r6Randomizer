@@ -1,0 +1,52 @@
+{
+  "name": "grim",
+  "nameShown": "GRIM",
+  "primary": [
+    {
+      "name": "552 Commando",
+      "sight": ["No Sight", "Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+      "barrel": ["No Barrel", "Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grip": ["No Grip", "Vertical Grip"],
+      "under_barrel": ["No Underbarrel", "Laser"]
+    },
+    {
+      "name": "SG-CQB",
+      "sight": [],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": []
+    }
+  ],
+  "secondary": [
+    {
+      "name": "P229",
+      "sight": [],
+      "barrel": ["Suppressor", "Muzzle Brake"],
+      "grip": [],
+      "under_barrel": []
+    },
+    {
+      "name": "Bailiff 410",
+      "sight": [],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": []
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Impact EMP Grenade",
+      "amount": 2
+    },
+    {
+      "name": "Claymore",
+      "amount": 2
+    },
+    {
+      "name": "Hard Breach Charge",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "Kawan Hive Launcher",
+  "unique_gadget_amount": 5
+}

@@ -1,0 +1,48 @@
+{
+  "name": "ram",
+  "nameShown": "RAM",
+  "primary": [
+    {
+      "name": "R4C Assault Rifle",
+      "sight": ["No Sight", "Red Dot Sight", "Holographic Sight", "Reflex Sight", "Scope 1.5x", "Scope 2.0x"],
+      "barrel": ["No Barrel", "Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grip": ["No Grip", "Vertical Grip"],
+      "under_barrel": ["No Underbarrel", "Laser"]
+    },
+    {
+      "name": "LMG-E Light Machine Gun",
+      "sight": ["No Sight", "Red Dot Sight", "Holographic Sight", "Reflex Sight"],
+      "barrel": ["No Barrel", "Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grip": [],
+      "under_barrel": ["No Underbarrel", "Laser"]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "ITA 12S Shotgun",
+      "sight": [],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": []
+    },
+    {
+      "name": "MK1 9mm",
+      "sight": [],
+      "barrel": ["Suppressor", "Muzzle Brake"],
+      "grip": [],
+      "under_barrel": []
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Stun Grenades",
+      "amount": 3
+    },
+    {
+      "name": "Smoke Grenades",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "BU-GI Auto Breacher",
+  "unique_gadget_amount": 3
+}

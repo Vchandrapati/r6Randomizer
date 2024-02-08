@@ -1,0 +1,78 @@
+{
+  "name": "buck",
+  "nameShown": "BUCK",
+  "primary": [
+    {
+      "name": "C8-SFW",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 1.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "CAMRS",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 3.0x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake",
+        "Flash Hider"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "Mk1 9mm",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Stun Grenade",
+      "amount": 3
+    },
+    {
+      "name": "Claymore",
+      "amount": 1
+    }
+  ],
+  "unique_gadget": "Skeleton Key",
+  "unique_gadget_amount": 17
+}

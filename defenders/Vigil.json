@@ -1,0 +1,94 @@
+{
+  "name": "vigil",
+  "nameShown": "VIGIL",
+  "primary": [
+    {
+      "name": "K1A",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "BOSG.12.2",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 2.5x"
+      ],
+      "barrel": [],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "C75 Auto",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor"
+      ],
+      "grip": [],
+      "under_barrel": []
+    },
+    {
+      "name": "SMG-12",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Bulletproof Camera",
+      "amount": 1
+    },
+    {
+      "name": "Impact Grenade",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "ERC-7",
+  "unique_gadget_amount": "&infin;"
+}

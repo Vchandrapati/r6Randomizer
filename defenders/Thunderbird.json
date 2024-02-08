@@ -1,0 +1,48 @@
+{
+  "name": "thunderbird",
+  "nameShown": "THUNDERBIRD",
+  "primary": [
+    {
+      "name": "SPEAR .308",
+      "sight": ["No Sight", "Red Dot Sight", "Holographic Sight", "Reflex Sight", "Scope 2.5x"],
+      "barrel": ["No Barrel", "Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grip": ["No Grip", "Vertical Grip"],
+      "under_barrel": ["No Underbarrel", "Laser"]
+    },
+    {
+      "name": "SPAS-15",
+      "sight": [],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": ["Laser"]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "Bearing 9",
+      "sight": ["Red Dot Sight"],
+      "barrel": ["Suppressor", "Flash Hider"],
+      "grip": [],
+      "under_barrel": []
+    },
+    {
+      "name": "Q-929",
+      "sight": [],
+      "barrel": ["Suppressor", "Muzzle Brake"],
+      "grip": [],
+      "under_barrel": ["Laser"]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Barbed Wire",
+      "amount": 2
+    },
+    {
+      "name": "Bulletproof Camera",
+      "amount": 1
+    }
+  ],
+  "unique_gadget": "Kóna Station",
+  "unique_gadget_amount": 3
+}

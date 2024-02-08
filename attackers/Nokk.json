@@ -1,0 +1,84 @@
+{
+  "name": "nokk",
+  "nameShown": "NØKK",
+  "primary": [
+    {
+      "name": "FMG-9",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Reflex Sight",
+        "Holographic Sight",
+        "Scope 1.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake",
+        "Flash Hider"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "SIX12 SD",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "5.7 USG",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "D-50",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Hard Breach Charge",
+      "amount": 1
+    },
+    {
+      "name": "Frag Grenade",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "HEL Presence Reduction",
+  "unique_gadget_amount": "&infin;"
+}

@@ -1,0 +1,100 @@
+{
+  "name": "amaru",
+  "nameShown": "AMARU",
+  "primary": [
+    {
+      "name": "G8A1",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Reflex Sight",
+        "Holographic Sight",
+        "Scope 2.0x",
+        "Scope 2.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Compensator",
+        "Flash Hider"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": []
+    },
+    {
+      "name": "SuperNova",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "ITA12S",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "SMG-11",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Extended Barrel"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Stun Grenade",
+      "amount": 3
+    },
+    {
+      "name": "Hard Breach Charge",
+      "amount": 1
+    }
+  ],
+  "unique_gadget": "Garra Hook",
+  "unique_gadget_amount": 4
+}

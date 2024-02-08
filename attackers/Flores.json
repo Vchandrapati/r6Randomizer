@@ -1,0 +1,82 @@
+{
+  "name": "flores",
+  "nameShown": "FLORES",
+  "primary": [
+    {
+      "name": "AR33",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Reflex Sight",
+        "Holographic Sight",
+        "Scope 1.5x",
+        "Scope 2.0x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Compensator",
+        "Flash Hider",
+        "Muzzle Brake"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "SR-25",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Reflex Sight",
+        "Holographic Sight",
+        "Scope 3.0x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Muzzle Brake"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "5.7 USG",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": []
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Claymore",
+      "amount": 1
+    },
+    {
+      "name": "Stun Grenade",
+      "amount": 3
+    }
+  ],
+  "unique_gadget": "RCE-Ratero Charge",
+  "unique_gadget_amount": 4
+}

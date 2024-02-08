@@ -1,0 +1,41 @@
+{
+  "name": "azami",
+  "nameShown": "AZAMI",
+  "primary": [
+    {
+      "name": "9X19SVN",
+      "sight": ["No Sight", "Red Dot Sight", "Holographic Sight", "Reflex Sight", "Scope 1.5x"],
+      "barrel": ["No Barrel", "Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grip": ["No Grip", "Vertical Grip"],
+      "under_barrel": ["No Underbarrel", "Laser"]
+    },
+    {
+      "name": "ACS12",
+      "sight": ["No Sight", "Scope 1.5x"],
+      "barrel": [],
+      "grip": ["Vertical Grip"],
+      "under_barrel": []
+    }
+  ],
+  "secondary": [
+    {
+      "name": "D-50",
+      "sight": [],
+      "barrel": ["Suppressor", "Muzzle Brake"],
+      "grip": [],
+      "under_barrel": ["Laser"]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Impact Grenade",
+      "amount": 2
+    },
+    {
+      "name": "Barbed Wire",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "KIBA BARRIER",
+  "unique_gadget_amount": 5
+}

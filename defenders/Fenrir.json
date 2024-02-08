@@ -1,0 +1,48 @@
+{
+  "name": "fenrir",
+  "nameShown": "FENRIR",
+  "primary": [
+    {
+      "name": "MP7",
+      "sight": ["No Sight", "Red Dot Sight", "Holographic Sight", "Reflex Sight", "Scope 1.5x (TBC)"],
+      "barrel": ["No Barrel", "Suppressor", "Flash Hider", "Compensator", "Muzzle Brake"],
+      "grip": ["No Grip", "Vertical Grip"],
+      "under_barrel": ["No Underbarrel", "Laser"]
+    },
+    {
+      "name": "SASG-12",
+      "sight": ["No Sight", "Scope 1.5x"],
+      "barrel": [],
+      "grip": ["Vertical Grip"],
+      "under_barrel": []
+    }
+  ],
+  "secondary": [
+    {
+      "name": "Bailiff 410",
+      "sight": [],
+      "barrel": ["Suppressor", "Muzzle Brake"],
+      "grip": [],
+      "under_barrel": []
+    },
+    {
+      "name": "5.7 USG",
+      "sight": [],
+      "barrel": ["Suppressor", "Muzzle Brake"],
+      "grip": [],
+      "under_barrel": ["Laser"]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Barbed Wire",
+      "amount": 2
+    },
+    {
+      "name": "Bulletproof Camera",
+      "amount": 1
+    }
+  ],
+  "unique_gadget": "F-NATT Dread Mine",
+  "unique_gadget_amount": 5
+}

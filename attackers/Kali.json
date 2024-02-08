@@ -1,0 +1,51 @@
+{
+  "name": "kali",
+  "nameShown": "KALI",
+  "primary": [
+    {
+      "name": "CSRX 300",
+      "sight": [],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": []
+    }
+  ],
+  "secondary": [
+    {
+      "name": "C75 Auto",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor"
+      ],
+      "grip": [],
+      "under_barrel": []
+    },
+    {
+      "name": "SPSMG9",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Breach Charge",
+      "amount": 3
+    },
+    {
+      "name": "Claymore",
+      "amount": 1
+    }
+  ],
+  "unique_gadget": "LV Explosive Lance",
+  "unique_gadget_amount": 3
+}

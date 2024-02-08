@@ -1,0 +1,72 @@
+{
+  "name": "frost",
+  "nameShown": "FROST",
+  "primary": [
+    {
+      "name": "9mm C1",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Reflex Sight",
+        "Holographic Sight",
+        "Scope 1.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Extended Barrel"
+      ],
+      "grip": [
+        "No Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "Super 90",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "Mk1 9mm",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Deployable Shield",
+      "amount": 1
+    },
+    {
+      "name": "Bulletproof Camera",
+      "amount": 1
+    }
+  ],
+  "unique_gadget": "Welcome Mat",
+  "unique_gadget_amount": 3
+}

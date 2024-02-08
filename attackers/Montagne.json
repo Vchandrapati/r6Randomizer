@@ -1,0 +1,51 @@
+{
+  "name": "montagne",
+  "nameShown": "MONTAGNE",
+  "primary": [
+    {
+      "name": "Extendable Shield",
+      "sight": [],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": []
+    }
+  ],
+  "secondary": [
+    {
+      "name": "LFP586",
+      "sight": [],
+      "barrel": [],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "P9",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Hard Breach Charge",
+      "amount": 1
+    },
+    {
+      "name": "Smoke Grenade",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "Extendable Shield",
+  "unique_gadget_amount": "&infin;"
+}

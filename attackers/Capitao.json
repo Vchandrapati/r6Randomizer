@@ -1,0 +1,86 @@
+{
+  "name": "capitao",
+  "nameShown": "CAPITÃO",
+  "primary": [
+    {
+      "name": "PARA-308",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 1.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Flash Hider",
+        "Compensator",
+        "Muzzle Brake",
+        "Extended Barrel"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip",
+        "Angled Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "M249",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight",
+        "Scope 1.5x",
+        "Scope 2.0x",
+        "Scope 2.5x"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Flash Hider",
+        "Compensator"
+      ],
+      "grip": [
+        "No Grip",
+        "Vertical Grip"
+      ],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "secondary": [
+    {
+      "name": "PRB92",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Claymore",
+      "amount": 1
+    },
+    {
+      "name": "Hard Breach Charge",
+      "amount": 1
+    }
+  ],
+  "unique_gadget": "Tactical Crossbow",
+  "unique_gadget_amount": "2 Asphyxiating Bolts + 2 Micro Smoke Grenades"
+}

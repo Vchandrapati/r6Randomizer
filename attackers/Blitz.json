@@ -1,0 +1,41 @@
+{
+    "name": "blitz",
+    "nameShown": "BLITZ",
+    "primary": [
+        {
+            "name": "Flash Shield",
+            "sight": [],
+            "barrel": [],
+            "grip": [],
+            "under_barrel": []
+        }
+    ],
+    "secondary": [
+        {
+            "name": "P12",
+            "sight": [],
+            "barrel": [
+                "No Barrel",
+                "Suppressor",
+                "Muzzle Brake"
+            ],
+            "grip": [],
+            "under_barrel": [
+                "No Underbarrel",
+                "Laser"
+            ]
+        }
+    ],
+    "gadget": [
+        {
+            "name": "Smoke Grenade",
+            "amount": 2
+        },
+        {
+            "name": "Breach Charge",
+            "amount": 3
+        }
+    ],
+    "unique_gadget": "Flash Shield",
+    "unique_gadget_amount": 4
+}

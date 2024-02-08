@@ -1,0 +1,62 @@
+{
+  "name": "glaz",
+  "nameShown": "GLAZ",
+  "primary": [
+    {
+      "name": "OTs-03",
+      "sight": [
+        "No Sight",
+        "Red Dot Sight",
+        "Holographic Sight",
+        "Reflex Sight"
+      ],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake",
+        "Flash Hider"
+      ],
+      "grip": [],
+      "under_barrel": []
+    }
+  ],
+  "secondary": [
+    {
+      "name": "PMM",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": [
+        "No Underbarrel",
+        "Laser"
+      ]
+    },
+    {
+      "name": "GSH-18",
+      "sight": [],
+      "barrel": [
+        "No Barrel",
+        "Suppressor",
+        "Muzzle Brake"
+      ],
+      "grip": [],
+      "under_barrel": []
+    }
+  ],
+  "gadget": [
+    {
+      "name": "Smoke Grenade",
+      "amount": 2
+    },
+    {
+      "name": "Frag Grenade",
+      "amount": 2
+    }
+  ],
+  "unique_gadget": "Flip Sight",
+  "unique_gadget_amount": "&infin;"
+}

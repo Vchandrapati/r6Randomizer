@@ -1,0 +1,78 @@
+{
+    "name": "brava",
+    "nameShown": "BRAVA",
+    "primary": [
+        {
+            "name": "PARA-308",
+            "sight": [
+                "No Sight",
+                "Scope 1.5x"
+            ],
+            "barrel": [
+                "No Barrel",
+                "Suppressor",
+                "Extended Barrel"
+            ],
+            "grip": [
+                "No Grip",
+                "Vertical Grip"
+            ],
+            "under_barrel": [
+                "No Underbarrel",
+                "Laser"
+            ]
+        },
+        {
+            "name": "CAMRS",
+            "sight": [
+                "No Sight",
+                "Scope 1.5x"
+            ],
+            "barrel": [
+                "No Barrel",
+                "Suppressor",
+                "Extended Barrel"
+            ],
+            "grip": [
+                "No Grip",
+                "Vertical Grip"
+            ],
+            "under_barrel": [
+                "No Underbarrel",
+                "Laser"
+            ]
+        }
+    ],
+    "secondary": [
+        {
+            "name": "USP40",
+            "sight": [],
+            "barrel": [],
+            "grip": [],
+            "under_barrel": []
+        },
+        {
+            "name": "Super Shorty",
+            "sight": [
+                "Reflex B"
+            ],
+            "barrel": [],
+            "grip": [],
+            "under_barrel": [
+                "Laser"
+            ]
+        }
+    ],
+    "gadget": [
+        {
+            "name": "Smoke Grenade",
+            "amount": 2
+        },
+        {
+            "name": "Claymore",
+            "amount": 2
+        }
+    ],
+    "unique_gadget": "Kludge Drone",
+    "unique_gadget_amount": 2
+}
