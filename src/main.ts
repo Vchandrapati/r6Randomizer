@@ -74,6 +74,7 @@ const defenderJsons = [
     'Wamai.json',
     'Warden.json'
 ];
+const mapsJsons = 'maps.json'
 
 const defenderPlaystyles = [
     "Anchor",
@@ -97,14 +98,14 @@ const attackerPlaystyles = [
 ];
 
 let currentMode = 'attacker'
-
+let rankedOnly = false
 
 // Function to fetch a random JSON file
 async function fetchRandomJsonData() {
     try {
         const jsonFiles = currentMode === 'attacker' ? attackerJsons : defenderJsons;
         const randomFileName = jsonFiles[Math.floor(Math.random() * jsonFiles.length)];
-        const response = await fetch(`/${currentMode}s/${randomFileName}`);
+        const response = await fetch(`${currentMode}s/${randomFileName}`);
 
         if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -117,18 +118,36 @@ async function fetchRandomJsonData() {
     }
 }
 
+async function fetchMapData() {
+    try {
+        const response = await fetch(mapsJsons); // Fetch the maps.json file
+
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+
+        return await response.json();
+    } catch (error) {
+        console.error('Error fetching map data:', error);
+        throw error; // Rethrow the error to propagate it to the caller
+    }
+}
 
 function setupApp() {
     document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
       <div id="button-container">
         <button id="toggle-mode">Switch to Defender</button>
-        <button id="randomize">Randomize</button>
+        <button id="randomize">Randomize Operator</button>
+        <button id="randomize-map">Randomize Map</button>
+        <button id="toggle-ranked">Ranked Maps Only: OFF</button>
       </div>
       <div id="data-display"></div>
     `;
 
     const toggleButton = document.querySelector<HTMLButtonElement>('#toggle-mode')!;
     const randomizeButton = document.querySelector<HTMLButtonElement>('#randomize')!;
+    const randomizeMapButton = document.querySelector<HTMLButtonElement>('#randomize-map')!;
+    const toggleRankedButton = document.querySelector<HTMLButtonElement>('#toggle-ranked')!;
 
     toggleButton.addEventListener('click', () => {
         currentMode = currentMode === 'attacker' ? 'defender' : 'attacker';
@@ -140,60 +159,95 @@ function setupApp() {
         updateDataDisplay(); // Update display when randomize is clicked
     });
 
+    randomizeMapButton.addEventListener('click', () => {
+        updateDataDisplay(true); // Pass true to indicate map randomization
+    });
+
+    toggleRankedButton.addEventListener('click', () => {
+        rankedOnly = !rankedOnly;
+        toggleRankedButton.textContent = `Ranked Maps Only: ${rankedOnly ? 'ON' : 'OFF'}`;
+    });
+
     updateDataDisplay(); // Initial data display update
 }
 
-async function updateDataDisplay() {
+async function updateDataDisplay(randomizeMap = false) {
     const data = await fetchRandomJsonData();
-    const dataDisplayElement = document.querySelector<HTMLDivElement>('#data-display');
+    const dataDisplayElement = document.querySelector<HTMLDivElement>('#data-display')!;
     dataDisplayElement!.innerHTML = ''; // Clear previous content
 
-    // Generate randomized loadout for the operator
-    const operatorLoadout = generateRandomLoadout(data);
+    if (randomizeMap) {
+        const mapsData = await fetchMapData(); // Assume this fetches your map data
+        const randomMap = mapsData[Math.floor(Math.random() * mapsData.length)]; // Select a random map
 
-    // Create container to hold operator name and icon
-    const operatorContainer = document.createElement('div');
-    operatorContainer.style.display = 'flex'; // Make the container a flexbox
-    operatorContainer.style.alignItems = 'center'; // Center the items vertically
-    operatorContainer.style.justifyContent = 'center'; // Center the items horizontally
-    dataDisplayElement?.appendChild(operatorContainer);
+        const mapContainer = document.createElement('div');
+        mapContainer.innerHTML = `<h2>${randomMap.name}</h2>`; // Display map name
+        mapContainer.style.display = 'flex';
+        mapContainer.style.flexDirection = 'column'; // Stack items vertically
+        mapContainer.style.alignItems = 'center'; // Center-align items horizontally
+        mapContainer.style.justifyContent = 'center'; // Center-align items vertically (optional)
+        mapContainer.style.width = '100%'; // Use 100% of the container width
+        mapContainer.style.maxWidth = '1920px'; // Limit container width, optional based on layout needs
 
-    // Create element to display operator name
-    const operatorNameElement = document.createElement('h2');
-    operatorNameElement.textContent = operatorLoadout.name;
-    operatorContainer.appendChild(operatorNameElement);
+        const mapIconElement = document.createElement('img');
+        fetchMapIcon(randomMap.name.toUpperCase()).then(svgData => {
+            mapIconElement.src = `data:image/svg+xml,${encodeURIComponent(svgData)}`;
+            mapIconElement.alt = `${randomMap.name} Icon`;
+            // Set image size to maintain aspect ratio and fit within its container
+            mapIconElement.style.width = '100%'; // Adapt image width to the container's width
+            mapIconElement.style.height = 'auto'; // Adjust height automatically to maintain aspect ratio
+            mapContainer.appendChild(mapIconElement);
+        });
 
-    // Fetch operator icon
-    const operatorIconElement = document.createElement('img');
-    fetchOperatorIcon(operatorLoadout.svgName.toLowerCase()).then(svgData => {
-        operatorIconElement.src = `data:image/svg+xml,${encodeURIComponent(svgData)}`;
-        operatorIconElement.alt = `${operatorLoadout.name} Icon`;
-        operatorIconElement.style.width = '80px'; // Set width of the icon
-        operatorIconElement.style.height = '80px'; // Set height of the icon
-        operatorIconElement.style.marginLeft = '5px'; // Add margin to the left for spacing
-        operatorContainer.appendChild(operatorIconElement);
-    });
+        dataDisplayElement?.appendChild(mapContainer);
+    } else {
+        // Generate randomized loadout for the operator
+        const operatorLoadout = generateRandomLoadout(data);
 
-    // Create elements to display loadout details
-    const primaryWeaponElement = document.createElement('p');
-    primaryWeaponElement.textContent = `${operatorLoadout.primary}`;
-    dataDisplayElement?.appendChild(primaryWeaponElement);
+        // Create container to hold operator name and icon
+        const operatorContainer = document.createElement('div');
+        operatorContainer.style.display = 'flex'; // Make the container a flexbox
+        operatorContainer.style.alignItems = 'center'; // Center the items vertically
+        operatorContainer.style.justifyContent = 'center'; // Center the items horizontally
+        dataDisplayElement?.appendChild(operatorContainer);
 
-    const secondaryWeaponElement = document.createElement('p');
-    secondaryWeaponElement.textContent = `${operatorLoadout.secondary}`;
-    dataDisplayElement?.appendChild(secondaryWeaponElement);
+        // Create element to display operator name
+        const operatorNameElement = document.createElement('h2');
+        operatorNameElement.textContent = operatorLoadout.name;
+        operatorContainer.appendChild(operatorNameElement);
 
-    const gadgetElement = document.createElement('p');
-    gadgetElement.textContent = `${operatorLoadout.gadget}`;
-    dataDisplayElement?.appendChild(gadgetElement);
+        // Fetch operator icon
+        const operatorIconElement = document.createElement('img');
+        fetchOperatorIcon(operatorLoadout.svgName.toLowerCase()).then(svgData => {
+            operatorIconElement.src = `data:image/svg+xml,${encodeURIComponent(svgData)}`;
+            operatorIconElement.alt = `${operatorLoadout.name} Icon`;
+            operatorIconElement.style.width = '80px'; // Set width of the icon
+            operatorIconElement.style.height = '80px'; // Set height of the icon
+            operatorIconElement.style.marginLeft = '5px'; // Add margin to the left for spacing
+            operatorContainer.appendChild(operatorIconElement);
+        });
 
-    const uniqueGadgetElement = document.createElement('p');
-    uniqueGadgetElement.textContent = `${operatorLoadout.unique_gadget}`;
-    dataDisplayElement?.appendChild(uniqueGadgetElement);
+        // Create elements to display loadout details
+        const primaryWeaponElement = document.createElement('p');
+        primaryWeaponElement.textContent = `${operatorLoadout.primary}`;
+        dataDisplayElement?.appendChild(primaryWeaponElement);
 
-    const playstyleElement = document.createElement('p');
-    playstyleElement.textContent = `${getRandomPlaystyle().toUpperCase()}`;
-    dataDisplayElement?.appendChild(playstyleElement);
+        const secondaryWeaponElement = document.createElement('p');
+        secondaryWeaponElement.textContent = `${operatorLoadout.secondary}`;
+        dataDisplayElement?.appendChild(secondaryWeaponElement);
+
+        const gadgetElement = document.createElement('p');
+        gadgetElement.textContent = `${operatorLoadout.gadget}`;
+        dataDisplayElement?.appendChild(gadgetElement);
+
+        const uniqueGadgetElement = document.createElement('p');
+        uniqueGadgetElement.textContent = `${operatorLoadout.unique_gadget}`;
+        dataDisplayElement?.appendChild(uniqueGadgetElement);
+
+        const playstyleElement = document.createElement('p');
+        playstyleElement.textContent = `${getRandomPlaystyle().toUpperCase()}`;
+        dataDisplayElement?.appendChild(playstyleElement);
+    }
 }
 
 
@@ -242,6 +296,12 @@ function getRandomPlaystyle() {
 
 async function fetchOperatorIcon(operator: string) {
     const response = await fetch(`https://r6operators.marcopixel.eu/icons/svg/${operator}.svg`);
+    const svgData = await response.text();
+    return svgData;
+}
+
+async function fetchMapIcon(map: string) {
+    const response = await fetch(`Map Images/${map}.svg`);
     const svgData = await response.text();
     return svgData;
 }

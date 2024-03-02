@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Lair",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Nighthaven Labs",
+        "in_ranked_pool": true
+    },
+    {
+        "name": "Stadium",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Emerald Plains",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Bank",
+        "in_ranked_pool": true
+    },
+    {
+        "name": "Border",
+        "in_ranked_pool": true
+    },
+    {
+        "name": "Chalet",
+        "in_ranked_pool": true
+    },
+    {
+        "name": "Clubhouse",
+        "in_ranked_pool": true
+    },
+    {
+        "name": "Coastline",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Consulate",
+        "in_ranked_pool": true
+    },
+    {
+        "name": "Favela",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Fortress",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Hereford Base",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "House",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Kafe Dostoyevsky",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Kanal",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Oregon",
+        "in_ranked_pool": true
+    },
+    {
+        "name": "Outback",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Presidential Plane",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Skyscraper",
+        "in_ranked_pool": true
+    },
+    {
+        "name": "Theme Park",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Tower",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Villa",
+        "in_ranked_pool": false
+    },
+    {
+        "name": "Yacht",
+        "in_ranked_pool": false
+    }
+]
