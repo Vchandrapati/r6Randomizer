@@ -178,7 +178,15 @@ async function updateDataDisplay(randomizeMap = false) {
 
     if (randomizeMap) {
         const mapsData = await fetchMapData(); // Assume this fetches your map data
-        const randomMap = mapsData[Math.floor(Math.random() * mapsData.length)]; // Select a random map
+        const filteredMaps = rankedOnly ? mapsData.filter(map => map.in_ranked_pool) : mapsData;
+
+        // Ensure there are maps available after filtering
+        if (filteredMaps.length === 0) {
+            console.error('No maps available for the current setting.');
+            return; // Exit the function if no maps are available
+        }
+
+        const randomMap = filteredMaps[Math.floor(Math.random() * filteredMaps.length)];
 
         const mapContainer = document.createElement('div');
         mapContainer.innerHTML = `<h2>${randomMap.name}</h2>`; // Display map name
