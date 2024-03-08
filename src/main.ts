@@ -100,6 +100,11 @@ const attackerPlaystyles = [
 let currentMode = 'attacker'
 let rankedOnly = false
 
+interface MapData {
+    name: string;
+    in_ranked_pool: boolean;
+}
+
 // Function to fetch a random JSON file
 async function fetchRandomJsonData() {
     try {
@@ -118,9 +123,9 @@ async function fetchRandomJsonData() {
     }
 }
 
-async function fetchMapData() {
+async function fetchMapData(): Promise<MapData[]> {
     try {
-        const response = await fetch(mapsJsons); // Fetch the maps.json file
+        const response = await fetch(mapsJsons); // Assume mapsJsons contains the path to your maps.json file
 
         if (!response.ok) {
             throw new Error('Network response was not ok');
@@ -129,7 +134,7 @@ async function fetchMapData() {
         return await response.json();
     } catch (error) {
         console.error('Error fetching map data:', error);
-        throw error; // Rethrow the error to propagate it to the caller
+        throw error;
     }
 }
 
@@ -177,8 +182,8 @@ async function updateDataDisplay(randomizeMap = false) {
     dataDisplayElement!.innerHTML = ''; // Clear previous content
 
     if (randomizeMap) {
-        const mapsData = await fetchMapData(); // Assume this fetches your map data
-        const filteredMaps = rankedOnly ? mapsData.filter(map => map.in_ranked_pool) : mapsData;
+        const mapsData = await fetchMapData();
+        const filteredMaps = rankedOnly ? mapsData.filter((map: MapData) => map.in_ranked_pool) : mapsData;
 
         // Ensure there are maps available after filtering
         if (filteredMaps.length === 0) {
